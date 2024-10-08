@@ -1,0 +1,41 @@
+body {
+  background-color: #d5e1ef;
+  text-align: center;
+}
+
+/* how to center a div timeStamp : 24:30  */
+.card {
+  /* following 5 lines will center the card  */
+  position: absolute;
+  margin: auto;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  inset: 0px;
+  width: 100%;
+  max-width: 298px;
+  height: 465px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 10%);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h3 {
+  /* color: #252d47; */
+  color: hsl(218, 44%, 22%);
+}
+
+P {
+  color: hsl(216, 15%, 48%);
+}
